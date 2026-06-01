@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "coreops-booking/availability",
+  "version": "1.0.0",
+  "title": "CoreOps Availability",
+  "category": "embed",
+  "icon": "search",
+  "description": "Date-range availability checker powered by the CoreOps-Base API.",
+  "keywords": [ "availability", "booking", "calendar", "coreops" ],
+  "supports": { "html": false },
+  "attributes": {
+    "userId": { "type": "string", "default": "" }
+  },
+  "editorScript": "file:./index.js"
+}

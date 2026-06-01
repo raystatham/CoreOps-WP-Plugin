@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "coreops-booking/booking-form",
+  "version": "1.0.0",
+  "title": "CoreOps Booking Form",
+  "category": "embed",
+  "icon": "tickets-alt",
+  "description": "Booking submission form that posts to the CoreOps-Base API.",
+  "keywords": [ "booking", "form", "reservation", "coreops" ],
+  "supports": { "html": false },
+  "attributes": {
+    "userId": { "type": "string", "default": "" }
+  },
+  "editorScript": "file:./index.js"
+}

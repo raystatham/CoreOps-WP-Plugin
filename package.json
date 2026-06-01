@@ -1,0 +1,14 @@
+{
+  "name": "coreops-booking",
+  "version": "1.0.0",
+  "description": "CoreOps Booking WordPress Plugin",
+  "private": true,
+  "scripts": {
+    "build":   "wp-scripts build",
+    "start":   "wp-scripts start",
+    "lint:js": "wp-scripts lint-js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "coreops-booking/calendar",
+  "version": "1.0.0",
+  "title": "CoreOps Calendar",
+  "category": "embed",
+  "icon": "calendar-alt",
+  "description": "Displays a FullCalendar calendar populated from the CoreOps-Base API.",
+  "keywords": [ "calendar", "events", "booking", "coreops" ],
+  "supports": { "html": false },
+  "attributes": {
+    "view":   { "type": "string", "default": "dayGridMonth" },
+    "userId": { "type": "string", "default": "" }
+  },
+  "editorScript": "file:./index.js"
+}
